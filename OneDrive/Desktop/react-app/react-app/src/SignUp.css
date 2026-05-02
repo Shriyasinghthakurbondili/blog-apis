@@ -1,0 +1,176 @@
+/* /* #main{
+    display: grid;
+    justify-content: center;
+    border:solid black;
+    padding:120px;
+    width: 500px;
+    margin-left: 500px;
+    background: #042940;
+    color:white;
+    box-shadow: 4px 10px 10px #042940;
+    border-radius: 10px;
+} */
+
+/* #signUp-container{
+    min-height: 100vh;;
+} */
+
+/* #signUp-container {
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: Arial, sans-serif;
+  }
+  
+#signUp-box {
+    background: whitesmoke;
+    width: 350px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px black;
+
+  }
+  
+  #signup-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #signup-box label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  #signup-box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  #signup-box input:focus {
+    border-color: #667eea;
+  }
+  
+  #password-field {
+    position: relative;
+  }
+  
+  #password-field span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #555;
+  }
+  
+  #signup-box button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background: #667eea;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .signup-box button:hover {
+    background: #26293d;
+  }  */
+
+  /* Background with depth */
+#signUp-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg, #1e1f26, #2b2e3b);
+    font-family: Arial, sans-serif;
+}
+
+/* 3D Card */
+/* #signUp-box {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    width: 360px;
+    border-radius: 20px;
+
+    /* 🔥 MAIN 3D EFFECT */
+    /* box-shadow:
+        8px 8px 20px rgba(0,0,0,0.6),
+        -8px -8px 20px rgba(255,255,255,0.05);
+
+    transform: perspective(1000px) translateZ(40px);
+    transition: 0.4s; */
+/* }  */
+
+#signUp-box button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:14px;
+    font-size:17px;
+    font-weight:bold;
+    letter-spacing:1px;
+    color:white;
+    border-radius: 20px;
+    border: solid white;
+    background: linear-gradient(145deg, #6a5af9, #8b7cff);
+
+    cursor:pointer;
+    position:relative;
+    overflow:hidden;
+
+    /* 🔥 Real 3D depth */
+    box-shadow:
+        0 8px 20px rgba(0,0,0,0.6),
+        inset 0 -3px 8px rgba(0,0,0,0.4),
+        inset 0 3px 6px rgba(255,255,255,0.2);
+
+    transition: all 0.25s ease;
+}
+
+
+/* Floating hover */
+#signUp-box:hover{
+    transform: perspective(1000px) translateY(-10px) scale(1.02);
+}
+
+/* Title */
+#signUp-box h2{
+    text-align:center;
+    color:white;
+    margin-bottom:25px;
+}
+
+/* Labels */
+#signUp-box label{
+    color:#ddd;
+    font-size:14px;
+}
+
+/* Inputs */
+#signUp-box input{
+    width:100%;
+    padding:12px;
+    margin-top:6px;
+    margin-bottom:15px;
+    border-radius:10px;
+    border:none;
+    background:#2b2e3b;
+    color:white;
+
+    /* Inner shadow = pressed look */
+    box-shadow: inset 3px 3px 8px rgba(0,0,0,0.6)
+}    

@@ -1,0 +1,34 @@
+{
+  "name": "blog-apis",
+  "version": "1.0.0",
+  "description": "Node.js + Express authentication backend using MVC structure",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "jwt",
+    "authentication",
+    "mvc"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.8.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express-rate-limit": "^8.1.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.23.1",
+    "multer": "^2.0.2",
+    "razorpay": "^2.9.6",
+    "redis": "^5.8.2"
+  }
+}

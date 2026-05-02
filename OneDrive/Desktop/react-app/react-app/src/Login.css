@@ -1,0 +1,125 @@
+/* login.css - E-commerce style login page */
+
+/* body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background-color: #ffffff;
+    width: 400px;
+    padding: 50px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: solid black 1px;
+  }
+  
+  .login-container:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .login-container h2 {
+    margin-bottom: 30px;
+    color: #111;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  
+  .login-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+  }
+   */
+  /* .login-container input {
+    width: 80%;
+    padding: 12px 40px 12px 15px; extra space on right for eye icon */
+    /* margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .login-container input:focus {
+    border-color: #ff9900;
+    box-shadow: 0 0 5px rgba(255, 153, 0, 0.5);
+    outline: none;
+  }
+  
+  .password-input-container {
+    position: relative;
+  }
+  
+  .password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #555;
+    font-size: 18px;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 14px 0;
+    background-color: #ff9900;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .login-container button:hover {
+    background-color: #e88e00;
+    transform: scale(1.02);
+  }
+  
+  .login-container button:active {
+    transform: scale(0.98);
+  }
+  
+  .login-container p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .login-container a {
+    color: #ff9900;
+    text-decoration: none;
+  }
+  
+  .login-container a:hover {
+    text-decoration: underline;
+  } */
+  
+  /* Toaster styling fix */
+  /* .login-container .react-hot-toast {
+    font-size: 14px;
+  } */
+  
+  /* Login css - E-commerce style login page */
+  /* body{
+    font-family: 'Roboto',Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  } */
